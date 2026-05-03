@@ -1,5 +1,7 @@
 # DNS Sinkhole
 
+![Go](https://img.shields.io/badge/Go-1.21+-00ADD8?logo=go&logoColor=white) ![Tests](https://img.shields.io/badge/Tests-18%20passing-brightgreen) ![License](https://img.shields.io/badge/License-MIT-green)
+
 Malware relies on DNS to find its C2 servers.  Block the DNS query and the
 malware can't beacon, can't receive commands, and can't exfiltrate data —
 regardless of what firewall rules are in place.  This Go DNS server loads
@@ -157,15 +159,6 @@ Expected: **18 tests passed** (blocker package).
 
 ---
 
-## Learning Objectives
-
-- [ ] How DNS queries work at the packet level (UDP/TCP)
-- [ ] How Pi-hole and DNS sinkholes intercept and block queries
-- [ ] How malware uses DNS for C2 and exfiltration
-- [ ] How to write concurrent Go network servers
-- [ ] DNS response codes: NXDOMAIN, SERVFAIL, NOERROR
-- [ ] Network-level defence vs endpoint-level defence
-
 ---
 
 ## References
@@ -183,4 +176,3 @@ MIT — see [LICENSE](LICENSE).
 
 ---
 
-*NullAI Lab — DNS Sinkhole*
