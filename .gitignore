@@ -1,0 +1,7 @@
+dns-sinkhole
+dns-sinkhole.exe
+*.out
+*.test
+.DS_Store
+.vscode/
+.idea/
